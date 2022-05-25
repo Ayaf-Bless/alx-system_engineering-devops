@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(dirname $full_path)
+pwd
