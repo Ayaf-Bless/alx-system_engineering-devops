@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'A-Za-z' 'N-ZA-Mn-za-m'
+tail -n +2 | cut -f -1 | sort -k 1 | uniq -c
